@@ -1,0 +1,6 @@
+target 'MMTweenAnimation-Swift' do
+    pod 'pop', '~> 1.0.7'
+
+    use_frameworks!
+end
+
