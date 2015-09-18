@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MMTweenAnimation-Swift/Classes/MMTweenAnimation.swift"
-            timestampString = "463993350.843967"
+            filePath = "MMTweenAnimation-Swift/Classes/MMPaintView.swift"
+            timestampString = "464113865.385784"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "animation()"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "drawRect(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -18,6 +18,7 @@
 		E17209F81BA1861C008E8A47 /* MMTweenAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17209F71BA1861C008E8A47 /* MMTweenAnimation.swift */; };
 		E186A0491BA14A5A00964F77 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E186A0481BA14A5A00964F77 /* CGPointExtension.swift */; };
 		E197F03A1BA6A18A001AFF36 /* MMFunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197F0391BA6A18A001AFF36 /* MMFunctionController.swift */; };
+		E1B51E4D1BABF2CE00F59D17 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = E1B51E4C1BABF2CE00F59D17 /* Readme */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E17209F71BA1861C008E8A47 /* MMTweenAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTweenAnimation.swift; sourceTree = "<group>"; };
 		E186A0481BA14A5A00964F77 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
 		E197F0391BA6A18A001AFF36 /* MMFunctionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMFunctionController.swift; sourceTree = "<group>"; };
+		E1B51E4C1BABF2CE00F59D17 /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 		FEA8533AC3AAAC0627AEE8A8 /* Pods-MMTweenAnimation-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMTweenAnimation-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMTweenAnimation-Swift/Pods-MMTweenAnimation-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				E109D85B1B9FE2510062C49C /* LaunchScreen.xib */,
 				E109D8501B9FE2510062C49C /* Supporting Files */,
 				E17209AC1BA1833E008E8A47 /* MMTweenAnimation-Swift-Bridging-Header.h */,
+				E1B51E4C1BABF2CE00F59D17 /* Readme */,
 			);
 			path = "MMTweenAnimation-Swift";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E109D85D1B9FE2510062C49C /* LaunchScreen.xib in Resources */,
+				E1B51E4D1BABF2CE00F59D17 /* Readme in Resources */,
 				E109D85A1B9FE2510062C49C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

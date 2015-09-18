@@ -29,10 +29,10 @@ enum MMTweenFunctionType: UInt {
     case Max        = 10
 }
 
-typealias MMTweenFunctionBlock = (t: CFTimeInterval,                // time
-                                  b: Double,                        // begining
-                                  c: Double,                        // change
-                                  d: CFTimeInterval) -> Double      // duration
+typealias MMTweenFunctionBlock = (t: CFTimeInterval,                // 当前时间与起始时间的差值
+                                  b: Double,                        // 起点
+                                  c: Double,                        // 起点与终点的差值
+                                  d: CFTimeInterval) -> Double      // 动画持续时间
 
 private let instance = MMTweenFunction()
 

@@ -44,16 +44,14 @@ class MMPaintView: UIView {
     
     override func drawRect(rect: CGRect) {
         __path?.stroke()
-        
-        
     }
     
     // MARK: Private Methods
     private func __interpolateCGPointsWithCatmullRom(points: [CGPoint]) -> UIBezierPath? {
         
-        print("================================================================================")
-        print("【point count : \(points.count)】")
-        print("\(points)")
+//        print("================================================================================")
+//        print("【point count : \(points.count)】")
+//        print("\(points)")
         
         if points.count < 4 {
             return nil

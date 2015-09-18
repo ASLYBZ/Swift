@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1B51E4B1BABF21F00F59D17 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = E1B51E4A1BABF21F00F59D17 /* Readme */; settings = {ASSET_TAGS = (); }; };
+		E1CC961F1BA931DA002D9D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC961E1BA931DA002D9D3C /* AppDelegate.swift */; };
+		E1CC96211BA931DA002D9D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC96201BA931DA002D9D3C /* ViewController.swift */; };
+		E1CC96241BA931DA002D9D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CC96221BA931DA002D9D3C /* Main.storyboard */; };
+		E1CC96261BA931DA002D9D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CC96251BA931DA002D9D3C /* Assets.xcassets */; };
+		E1CC96291BA931DA002D9D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CC96271BA931DA002D9D3C /* LaunchScreen.storyboard */; };
+		E1CC96321BA93228002D9D3C /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC96311BA93228002D9D3C /* OverlayView.swift */; settings = {ASSET_TAGS = (); }; };
+		E1CC96341BA933D1002D9D3C /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC96331BA933D1002D9D3C /* SwipeCardView.swift */; settings = {ASSET_TAGS = (); }; };
+		E1CC96361BA93F23002D9D3C /* SwipeCardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC96351BA93F23002D9D3C /* SwipeCardContainer.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1B51E4A1BABF21F00F59D17 /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		E1CC961B1BA931DA002D9D3C /* TinderSimpleSwipeCards-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TinderSimpleSwipeCards-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CC961E1BA931DA002D9D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1CC96201BA931DA002D9D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1CC96231BA931DA002D9D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1CC96251BA931DA002D9D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1CC96281BA931DA002D9D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1CC962A1BA931DA002D9D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CC96311BA93228002D9D3C /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		E1CC96331BA933D1002D9D3C /* SwipeCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		E1CC96351BA93F23002D9D3C /* SwipeCardContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CC96181BA931DA002D9D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CC96121BA931DA002D9D3C = {
+			isa = PBXGroup;
+			children = (
+				E1CC961D1BA931DA002D9D3C /* TinderSimpleSwipeCards-Swift */,
+				E1CC961C1BA931DA002D9D3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CC961C1BA931DA002D9D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CC961B1BA931DA002D9D3C /* TinderSimpleSwipeCards-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CC961D1BA931DA002D9D3C /* TinderSimpleSwipeCards-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E1CC96301BA93208002D9D3C /* Classes */,
+				E1CC961E1BA931DA002D9D3C /* AppDelegate.swift */,
+				E1CC96201BA931DA002D9D3C /* ViewController.swift */,
+				E1CC96221BA931DA002D9D3C /* Main.storyboard */,
+				E1CC96251BA931DA002D9D3C /* Assets.xcassets */,
+				E1CC96271BA931DA002D9D3C /* LaunchScreen.storyboard */,
+				E1CC962A1BA931DA002D9D3C /* Info.plist */,
+				E1B51E4A1BABF21F00F59D17 /* Readme */,
+			);
+			path = "TinderSimpleSwipeCards-Swift";
+			sourceTree = "<group>";
+		};
+		E1CC96301BA93208002D9D3C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1CC96311BA93228002D9D3C /* OverlayView.swift */,
+				E1CC96331BA933D1002D9D3C /* SwipeCardView.swift */,
+				E1CC96351BA93F23002D9D3C /* SwipeCardContainer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CC961A1BA931DA002D9D3C /* TinderSimpleSwipeCards-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CC962D1BA931DA002D9D3C /* Build configuration list for PBXNativeTarget "TinderSimpleSwipeCards-Swift" */;
+			buildPhases = (
+				E1CC96171BA931DA002D9D3C /* Sources */,
+				E1CC96181BA931DA002D9D3C /* Frameworks */,
+				E1CC96191BA931DA002D9D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TinderSimpleSwipeCards-Swift";
+			productName = "TinderSimpleSwipeCards-Swift";
+			productReference = E1CC961B1BA931DA002D9D3C /* TinderSimpleSwipeCards-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CC96131BA931DA002D9D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iosdev;
+				TargetAttributes = {
+					E1CC961A1BA931DA002D9D3C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E1CC96161BA931DA002D9D3C /* Build configuration list for PBXProject "TinderSimpleSwipeCards-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CC96121BA931DA002D9D3C;
+			productRefGroup = E1CC961C1BA931DA002D9D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CC961A1BA931DA002D9D3C /* TinderSimpleSwipeCards-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CC96191BA931DA002D9D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B51E4B1BABF21F00F59D17 /* Readme in Resources */,
+				E1CC96291BA931DA002D9D3C /* LaunchScreen.storyboard in Resources */,
+				E1CC96261BA931DA002D9D3C /* Assets.xcassets in Resources */,
+				E1CC96241BA931DA002D9D3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CC96171BA931DA002D9D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CC96321BA93228002D9D3C /* OverlayView.swift in Sources */,
+				E1CC96211BA931DA002D9D3C /* ViewController.swift in Sources */,
+				E1CC96341BA933D1002D9D3C /* SwipeCardView.swift in Sources */,
+				E1CC961F1BA931DA002D9D3C /* AppDelegate.swift in Sources */,
+				E1CC96361BA93F23002D9D3C /* SwipeCardContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1CC96221BA931DA002D9D3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CC96231BA931DA002D9D3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1CC96271BA931DA002D9D3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CC96281BA931DA002D9D3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1CC962B1BA931DA002D9D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1CC962C1BA931DA002D9D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CC962E1BA931DA002D9D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TinderSimpleSwipeCards-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xmu.TinderSimpleSwipeCards-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1CC962F1BA931DA002D9D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TinderSimpleSwipeCards-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xmu.TinderSimpleSwipeCards-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CC96161BA931DA002D9D3C /* Build configuration list for PBXProject "TinderSimpleSwipeCards-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CC962B1BA931DA002D9D3C /* Debug */,
+				E1CC962C1BA931DA002D9D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CC962D1BA931DA002D9D3C /* Build configuration list for PBXNativeTarget "TinderSimpleSwipeCards-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CC962E1BA931DA002D9D3C /* Debug */,
+				E1CC962F1BA931DA002D9D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CC96131BA931DA002D9D3C /* Project object */;
+}

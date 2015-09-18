@@ -53,16 +53,14 @@ class MMAnimationController: UIViewController {
         __anim = MMTweenAnimation.animation()
         __anim!.functionType = functionType
         __anim!.easingType = easingType
-        __anim!.duration = 3.0
+        __anim!.duration = 2.0
         __anim!.fromValue = [ __dummy!.center.y ]
         __anim!.toValue = [ __dummy!.center.y + CGFloat(200.0) ]
         __anim!.animationBlock = { [unowned self] (diff: CFTimeInterval, duration: CFTimeInterval, values: [CGFloat], target: AnyObject, animation: MMTweenAnimation) -> Void in
-            let value: CGFloat = values[0]
+            let value: CGFloat = values[0]          // 获取当前时间结束点的值
             
-            self.__dummy!.center = CGPoint(x: self.__dummy!.center.x, y: value)
+            self.__dummy!.center = CGPoint(x: self.__dummy!.center.x, y: value)     // 计算小红点的中心位置
             self.__ball!.center = CGPoint(x: 50.0 + (CGRectGetWidth(UIScreen.mainScreen().bounds) - 150.0) * CGFloat(diff / duration), y: value)
-            
-//            print("\(self.__dummy!.center): \(self.__ball!.center)")
             
             self.__paintView!.addDot(self.__ball!.center)
         }

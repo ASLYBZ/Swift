@@ -13,19 +13,19 @@ typealias MMTweenAnimationBlock = (time: CFTimeInterval, duration: CFTimeInterva
 
 class MMTweenAnimation: POPCustomAnimation {
     
-    var animationBlock: MMTweenAnimationBlock?
-    var fromValue: [CGFloat]?
-    var toValue: [CGFloat]?
-    var duration: Double = 0.3
+    var animationBlock: MMTweenAnimationBlock?          // 动画回调
+    var fromValue: [CGFloat]?                           // 起点数组
+    var toValue: [CGFloat]?                             // 终点数组
+    var duration: Double = 0.3                          // 动画时长
     
-    private var __functionBlock: MMTweenFunctionBlock?
+    private var __functionBlock: MMTweenFunctionBlock?  // 动画插值算法
     var functionBlock: MMTweenFunctionBlock? {
         get {
             return __functionBlock
         }
     }
     
-    private var __functionType: MMTweenFunctionType = .Bounce
+    private var __functionType: MMTweenFunctionType = .Bounce   // 动画插值算法类型
     var functionType: MMTweenFunctionType {
         get {
             return __functionType
@@ -38,7 +38,7 @@ class MMTweenAnimation: POPCustomAnimation {
         }
     }
     
-    private var __easingType: MMTweenEasingType = .Out
+    private var __easingType: MMTweenEasingType = .Out          // 动画缓动类型
     var easingType: MMTweenEasingType {
         get {
             return __easingType
@@ -61,22 +61,22 @@ class MMTweenAnimation: POPCustomAnimation {
 
             let anim: MMTweenAnimation = animation as! MMTweenAnimation
 
-            let t = animation.currentTime - animation.beginTime
+            let t = animation.currentTime - animation.beginTime     // 当前时间与起始时间的差值
             let d = anim.duration
 
             assert(anim.fromValue!.count == anim.toValue!.count, "fromValue.count != toValue.count")
 
-            if t < d {
+            if t < d {      // 确保在动画持续时间类才处理
                 var values: [CGFloat] = [CGFloat]()
 
                 for i in 0..<anim.fromValue!.count {
 
-                    if let functionBlock = anim.functionBlock {
+                    if let functionBlock = anim.functionBlock {     // 计算插值
                         values.append(CGFloat(functionBlock(t: t, b: Double(anim.fromValue![i]), c: Double(anim.toValue![i]) - Double(anim.fromValue![i]), d: d)))
                     }
                 }
 
-                if let animationBlock = anim.animationBlock {
+                if let animationBlock = anim.animationBlock {       // 动画回调，以实现绘制操作
                     animationBlock(time: t, duration: d, values: values, target: target, animation: anim)
                 }
                 
