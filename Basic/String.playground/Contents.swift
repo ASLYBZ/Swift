@@ -1,11 +1,14 @@
-//: Playground - noun: a place where people can play
+//: # Swift字符串功能演示
 
 import UIKit
 
-/*:
-# Swift字符串功能演示
-*/
 
+//: ## 文件路径处理
+
+let directory: String = "/var"
+let path = NSString.pathWithComponents([ directory, "lib" ])
+let filePath = NSString(string: path).stringByAppendingPathComponent("test")
+let fullFilePath = NSString(string: filePath).stringByAppendingPathExtension("py")
 //: ## String与CChar数组的转换
 
 let str: String = "abc1个"
