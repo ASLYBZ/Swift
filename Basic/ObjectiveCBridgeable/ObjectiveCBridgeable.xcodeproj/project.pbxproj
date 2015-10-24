@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12874C11BD756CD004E0BB4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12874C01BD756CD004E0BB4 /* main.swift */; };
+		E12874CA1BD756F3004E0BB4 /* Mobile.m in Sources */ = {isa = PBXBuildFile; fileRef = E12874C91BD756F3004E0BB4 /* Mobile.m */; settings = {ASSET_TAGS = (); }; };
+		E12874CC1BD7574C004E0BB4 /* SwiftMobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12874CB1BD7574C004E0BB4 /* SwiftMobile.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E12874BB1BD756CD004E0BB4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E12874BD1BD756CD004E0BB4 /* ObjectiveCBridgeable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCBridgeable; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12874C01BD756CD004E0BB4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E12874C71BD756F3004E0BB4 /* ObjectiveCBridgeable-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveCBridgeable-Bridging-Header.h"; sourceTree = "<group>"; };
+		E12874C81BD756F3004E0BB4 /* Mobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobile.h; sourceTree = "<group>"; };
+		E12874C91BD756F3004E0BB4 /* Mobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mobile.m; sourceTree = "<group>"; };
+		E12874CB1BD7574C004E0BB4 /* SwiftMobile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMobile.swift; sourceTree = "<group>"; };
+		E12DDBDF1BD9FB54008F72EC /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12874BA1BD756CD004E0BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12874B41BD756CD004E0BB4 = {
+			isa = PBXGroup;
+			children = (
+				E12874BF1BD756CD004E0BB4 /* ObjectiveCBridgeable */,
+				E12874BE1BD756CD004E0BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E12874BE1BD756CD004E0BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12874BD1BD756CD004E0BB4 /* ObjectiveCBridgeable */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12874BF1BD756CD004E0BB4 /* ObjectiveCBridgeable */ = {
+			isa = PBXGroup;
+			children = (
+				E12874C01BD756CD004E0BB4 /* main.swift */,
+				E12874C81BD756F3004E0BB4 /* Mobile.h */,
+				E12874C91BD756F3004E0BB4 /* Mobile.m */,
+				E12874C71BD756F3004E0BB4 /* ObjectiveCBridgeable-Bridging-Header.h */,
+				E12874CB1BD7574C004E0BB4 /* SwiftMobile.swift */,
+				E12DDBDF1BD9FB54008F72EC /* MyPlayground.playground */,
+			);
+			path = ObjectiveCBridgeable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12874BC1BD756CD004E0BB4 /* ObjectiveCBridgeable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12874C41BD756CD004E0BB4 /* Build configuration list for PBXNativeTarget "ObjectiveCBridgeable" */;
+			buildPhases = (
+				E12874B91BD756CD004E0BB4 /* Sources */,
+				E12874BA1BD756CD004E0BB4 /* Frameworks */,
+				E12874BB1BD756CD004E0BB4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCBridgeable;
+			productName = ObjectiveCBridgeable;
+			productReference = E12874BD1BD756CD004E0BB4 /* ObjectiveCBridgeable */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12874B51BD756CD004E0BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Minya Knoka";
+				TargetAttributes = {
+					E12874BC1BD756CD004E0BB4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E12874B81BD756CD004E0BB4 /* Build configuration list for PBXProject "ObjectiveCBridgeable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E12874B41BD756CD004E0BB4;
+			productRefGroup = E12874BE1BD756CD004E0BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12874BC1BD756CD004E0BB4 /* ObjectiveCBridgeable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12874B91BD756CD004E0BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12874CC1BD7574C004E0BB4 /* SwiftMobile.swift in Sources */,
+				E12874C11BD756CD004E0BB4 /* main.swift in Sources */,
+				E12874CA1BD756F3004E0BB4 /* Mobile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E12874C21BD756CD004E0BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E12874C31BD756CD004E0BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E12874C51BD756CD004E0BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjectiveCBridgeable/ObjectiveCBridgeable-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E12874C61BD756CD004E0BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjectiveCBridgeable/ObjectiveCBridgeable-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12874B81BD756CD004E0BB4 /* Build configuration list for PBXProject "ObjectiveCBridgeable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12874C21BD756CD004E0BB4 /* Debug */,
+				E12874C31BD756CD004E0BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12874C41BD756CD004E0BB4 /* Build configuration list for PBXNativeTarget "ObjectiveCBridgeable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12874C51BD756CD004E0BB4 /* Debug */,
+				E12874C61BD756CD004E0BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12874B51BD756CD004E0BB4 /* Project object */;
+}
